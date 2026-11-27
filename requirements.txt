@@ -1,0 +1,8 @@
+# Install into the separate MetaDrive environment (~/metadrive_env), not the BTP .venv:
+#   ~/metadrive_env/bin/pip install -r requirements.txt
+# MetaDrive 0.4.3 itself is installed from /Users/udaykiran/metadrive (pip install -e .)
+scikit-learn==1.9.1   # must match the version the saved .pkl models were created with
+joblib
+pandas
+matplotlib
+pytest
